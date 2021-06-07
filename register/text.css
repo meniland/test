@@ -1,0 +1,29 @@
+body{
+    background-color:blueviolet;
+}
+#main{
+    margin: 50px;
+    background-color:darksalmon;
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0 22px 0;
+    border: none;
+}
+input:focus{
+    background-color: cornflowerblue;
+    outline: none;
+}
+#second{
+    width: 50px;
+margin: auto;
+}
+
+button:focus{
+    background-color:green;
+}
