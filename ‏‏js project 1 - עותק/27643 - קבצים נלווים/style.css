@@ -1,0 +1,95 @@
+body {
+    background-image: url(photos/tile.jpg);
+}
+
+
+h1 {
+    font-family:  'Dancing Script', cursive;
+    text-align : center;
+    color      : black;
+    font-size  : 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#formDiv {
+    width           : 500px;
+    background-image: url(photos/formbg.jpg);
+    margin-left     : auto;
+    margin-right    : auto;
+    padding         : 30px;
+}
+
+label {
+    font-size: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    margin: 20px;
+}
+
+button{
+align-items: center;
+}
+
+.note {
+    display         : inline-block;
+    background-image: url(photos/notebg.png);
+    width           : 180px;
+    height          : 250px;
+    margin          : 50px;
+    animation       : fadein 2s;
+    position        : relative;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.task {
+    margin-top   : 30px;
+    margin-left  : 5px;
+    margin-right : 20px;
+    margin-bottom: 5px;
+    width        : 170px;
+    height       : 175px;
+    ;
+    overflow-wrap: break-word;
+    white-space  : pre-line;
+    overflow-y   : auto;
+}
+
+.date {
+    position: absolute;
+    bottom  : 20px;
+    margin  : 5px;
+}
+
+.time {
+    position: absolute;
+    bottom  : 2px;
+    margin  : 5px;
+}
+
+.glyphicon {
+    display : none;
+    position: absolute;
+    top     : 17px;
+    bottom  : 100px;
+    left    : 165px;
+}
+
+.note:hover .glyphicon {
+    display: block;
+}
